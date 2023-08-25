@@ -12,6 +12,7 @@ void (*func_select(char *opcode))(stack_t **, unsigned int)
 	instruction_t my_array[] = {
 		{"push", push},
 		{"pall", pall},
+		{"pint", pint},
 		{NULL, NULL}
 	};
 

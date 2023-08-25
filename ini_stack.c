@@ -12,7 +12,7 @@ int ini_stack(stack_t **stack)
 	nw = malloc(sizeof(stack_t));
 	if (nw == NULL)
 	{
-		fprintf(stderr, "Error: malloc failed");
+		fprintf(stderr, "Error: malloc failed\n");
 		exit(EXIT_FAILURE);
 	}
 	nw->n = 0;

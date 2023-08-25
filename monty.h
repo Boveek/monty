@@ -46,4 +46,5 @@ void push(stack_t **stack, unsigned int line_number);
 void (*func_select(char *opcode))(stack_t **, unsigned int);
 void stack_free(stack_t **stack);
 void free_token(void);
+void pint(stack_t **stack, unsigned int line_number);
 #endif
