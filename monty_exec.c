@@ -47,6 +47,7 @@ int main(int argc, char *argv[])
 		if (opcode_func == NULL)
 		{
 			fprintf(stderr, "L%d: unknown instruction %s\n", counter, token[0]);
+			stack_free(&new);
 			free_token();
 			exit(EXIT_FAILURE);
 		}
